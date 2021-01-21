@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<style>
+    #app{
+        width: 100%;
+        max-width: 80%;
+        margin: auto;
+        
+
+    }
+    #app p{
+        color: white;
+        margin: auto;
+        margin-top: 40px;
+        width: 100%;
+        border-radius: 50px;
+        padding: 15px;
+        text-align: center;
+        background: linear-gradient(to right, #f953c6, #b91d73); 
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    #app textarea{
+        margin-top: 40px;
+        width: 100%;
+        margin-top: 20px;
+        min-height: 140px;
+        background-color: rgb(37, 10, 71);
+        border: 1px solid rgb(0, 255, 242);
+        outline: 0px;
+        color: white;
+        border-radius: 20px;
+    }
+    #app select{
+        margin-top: 10px;
+        margin-left: 40px;
+        background: linear-gradient(to right, #6441a5, #2a0845); 
+        color: white;
+        width: 95%;
+        outline: 0px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    #ps{
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        background-color: thistle;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    #select option{
+        color: black;
+        background-color: rgba(130, 9, 243, 0.822);
+    }
+
+</style>
+
+<body style=" background: linear-gradient(to right, #000046, #1cb5e0);">
+    <header>
+        <!--Navbar -->
+<nav style=" background: linear-gradient(to right, #ff0084, #33001b);" class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color lighten-1">
+    <a style="font-size: 30px;" class="navbar-brand" href="#">Saifaliabdulhey87</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+      aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Dropdown
+          </a>
+          <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link waves-effect waves-light">1
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li class="nav-item avatar dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img style="width: 60px; height: 60px;" src="saif.jpg" class="rounded-circle z-depth-0"
+              alt="avatar image">
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
+            aria-labelledby="navbarDropdownMenuLink-55">
+            <a class="dropdown-item" href="#">coder Saif</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+    </header>
+
+    <main id="app">
+        <p>Text - نص</p>
+        <select id="select">
+            <option value="encode"> encode text</option>
+            <option value="decode">decode text</option>
+        </select>
+        <textarea id="text"> </textarea>
+
+        <p id="ps">result-النتيجة</p>
+        <textarea id="result">
+
+        </textarea>
+    
+    </main>
+
+    
+
+  
+   
+   
+   
+    <!-- Card -->
+<div style="width: 80%;margin: auto; margin-top: 20px; background: linear-gradient(to right, #20002c, #cbb4d4); " class="card testimonial-card">
+
+    <!-- Background color -->
+    <div></div>
+  
+    <!-- Avatar -->
+    <div class="avatar mx-auto white">
+      <img style="width: 300px; height: 300px;" src="saif.jpg" class="rounded-circle"
+        alt="woman avatar">
+    </div>
+  
+    <!-- Content -->
+    <div class="card-body">
+      <!-- Name -->
+      <h4 style="color: white;" class="card-title">Saif Ali</h4>
+      <hr>
+      <!-- Quotation -->
+      <p style="color: white;"><i style="color: white;" class="fas fa-quote-left"></i> This website has been created by coder Saif Ali to encode your texts
+      </p>
+    </div>
+  
+  </div>
+  <!-- Card -->
+  
+    
+
+    <script src="new.js"></script>
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
